@@ -7,6 +7,20 @@ header {
   border: 1px red solid;
   margin: 1px;
   padding: 1px;
+  text-align: center;
+  background-color: rgba(0,0,0, .95 );
+  font-family: 'Slabo 27px', serif;
+  
+}
+header a {
+  text-decoration: none;
+  color: whitesmoke;
+  margin: 3px 0;
+}
+header a h1{
+  margin: 1px;
+  padding: 1px;
+  border: 1px;
 }
 .container-ppal {
   border: 1px blue solid;
@@ -38,6 +52,7 @@ header {
 }
 .item{
   margin: 0;
+  height: 99%;
 }
 #item1 {
   grid-area: imgs1 ;
