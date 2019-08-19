@@ -50,6 +50,9 @@ header a h1 {
 
 .text-container {
   margin-top: 20%;
+  animation: transs;
+  animation-delay: 0s;
+  animation-duration: 4s;
 }
 .text-container p a {
   text-decoration: none;
@@ -123,13 +126,6 @@ header a h1 {
 #item1 {
   grid-area: imgs1;
 }
-
-#item1:hover {
-  animation-name: transs;
-  animation-delay: 0s;
-  animation-duration: 5s;
-}
-
 #item2 {
   grid-area: imgs2;
 }
@@ -183,10 +179,16 @@ footer {
 @keyframes transs {
   0% {
     background: rgba(0, 0, 0, 0.4);
+    transform: translateX(15px)
   }
   50% {
+    transform: translateX(10px)
+  }
+  75%{
+    background: rgba(0, 0, 0, 0.4);
+    transform: translateX(5px)
   }
   100% {
-    background: red;
+    transform: translateX(0px)
   }
 }
