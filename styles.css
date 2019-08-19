@@ -34,7 +34,8 @@ header a h1 {
 .container-left {
   display: inline-block;
   width: 40%;
-  border: 1px red solid;
+  padding: 1px;
+  
 }
 .container-imgppal {
   display: flex;
@@ -47,7 +48,7 @@ header a h1 {
 }
 
 .text-container {
-  margin-top: 5%;
+  margin-top: 20%;
 }
 .text-container p a {
   text-decoration: none;
@@ -66,18 +67,32 @@ header a h1 {
   margin: 15px 5px 5px 10px;
   font-family: 'EB Garamond', serif;
 }
-.social-networks{
-  margin-top: 10px;
-  text-align: center;
+.container-left p a {
+  color: rgba(0, 0, 0, 0.8);
+  
 }
-.social-networks span{
+.social-networks{
+  margin: 15px 2px 2px 5px;
+  text-align: center;
+  box-shadow: -1px 1px 12px -1px rgba(0,0,0,0.66);
+  width: 97%;
+}
+.social-networks li{
   margin: 5px;
+  display: inline-flex;
+}
+.social-networks li ol {
+  height: 100px;
+  margin: 5px;
+  padding: 1px;
+  
 }
 .social-networks a{
   cursor: pointer;
   text-decoration: none;
+  color: black;
 }
-.social-networks span i{
+.social-networks li i{
   font-size: 30px;
   
 }
