@@ -26,7 +26,7 @@ header a h1 {
   width: 20%;
 }
 .container-ppal {
-  border: 1px blue solid;
+  border:1px;
   margin: 1px;
   padding: 1px;
   display: flex;
@@ -35,7 +35,8 @@ header a h1 {
   display: inline-block;
   width: 40%;
   padding: 1px;
-  
+  border:1px;
+  margin: 1px;
 }
 .container-imgppal {
   display: flex;
@@ -72,7 +73,7 @@ header a h1 {
   
 }
 .social-networks{
-  margin: 15px 2px 2px 5px;
+  margin: 15% 2px 2px 5px;
   text-align: center;
   box-shadow: -1px 1px 12px -1px rgba(0,0,0,0.66);
   width: 97%;
@@ -97,8 +98,10 @@ header a h1 {
   
 }
 .container-imgSection {
+  padding: 1px;
+  margin: 1px;
+  border: 1px;
   display: grid;
-  border: 1px yellow solid;
   grid-template:
     'imgs1 imgs2 imgs3'
     'imgs4 imgs5 imgs5'
@@ -152,10 +155,11 @@ header a h1 {
   grid-area: imgs6;
 }
 .IMG-Item {
-  border: 1px grey solid;
+  border-radius: 3%;
   width: 97%;
   height: 97%;
   margin: 1px;
+  padding: 1px;
   padding: 1px;
 }
 .item-overlay {
