@@ -129,16 +129,7 @@ header a h1 {
   animation-delay: 0s;
   animation-duration: 5s;
 }
-@keyframes transs {
-  0% {
-    background: rgba(0, 0, 0, 0.4);
-  }
-  50% {
-  }
-  100% {
-    background: red;
-  }
-}
+
 #item2 {
   grid-area: imgs2;
 }
@@ -185,4 +176,17 @@ footer {
 }
 .footer-container a {
   color: whitesmoke;
+}
+
+/* animaciones */
+
+@keyframes transs {
+  0% {
+    background: rgba(0, 0, 0, 0.4);
+  }
+  50% {
+  }
+  100% {
+    background: red;
+  }
 }
