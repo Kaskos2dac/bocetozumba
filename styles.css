@@ -75,9 +75,11 @@ header a h1 {
 }
 .social-networks a{
   cursor: pointer;
+  text-decoration: none;
 }
 .social-networks span i{
   font-size: 30px;
+  
 }
 .container-imgSection {
   display: grid;
